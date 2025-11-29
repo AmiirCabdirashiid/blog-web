@@ -1,0 +1,353 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #444;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+/* Section Styling */
+main {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Posts Section Styling */
+#posts {
+    text-align: center;
+}
+
+.posts-container {
+    display: flex;
+    gap: 20px; /* Space between posts */
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
+    margin-top: 20px;
+}
+
+.posts-container article {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.posts-container article:hover {
+    transform: scale(1.05);
+}
+
+.posts-container img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.posts-container h3 {
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.posts-container p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* About Page Styling */
+#about-page {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about-page img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about-page h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Contact Page Styling */
+#contact-page {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-page label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#contact-page input,
+#contact-page textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact-page button {
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact-page button:hover {
+    background: #555;
+}
+
+/* Active Navigation Link */
+nav ul li a.active {
+    background: #555;
+}
+/* Features Page Styling */
+#features-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#features-section .feature {
+    margin-bottom: 20px;
+}
+
+#features-section h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Gallery Styling */
+#gallery {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#gallery h2 {
+    color: #333;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*  Marketing page General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #ff9900;
+}
+
+/* Introduction Section */
+#intro {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#intro h2 {
+    color: #333;
+}
+
+/* Pricing Table */
+#pricing {
+    padding: 20px;
+    text-align: center;
+}
+
+#pricing h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pricing-table {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.pricing-table th {
+    background: #333;
+    color: white;
+}
+
+.pricing-table tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+.pricing-table tr:hover {
+    background: #fffbcc;
+}
+
+/* Call to Action Section */
+#cta {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#cta button {
+    padding: 10px 20px;
+    background: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#cta button:hover {
+    background: #cc7a00;
+}
+
+
+
+article {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
